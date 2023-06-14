@@ -87,6 +87,7 @@ ggplot(dt, aes(x=Borough))+geom_bar(stat="count",fill="orange")+labs(title="Whic
 ```
 
 ![](NY-Airbnb_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![unnamed-chunk-5-1](https://github.com/NelsSh/myprojects/assets/133047553/04148655-9e1c-49d7-87b3-bccd9b17dbdd)
 
 Manhattan contains the most places for reservation, followed by
 Brooklyn, Queens, Bronx and Staten Island.
@@ -97,6 +98,7 @@ ggplot(dt, aes(y=dt$`Property Type`))+geom_bar(stat="count",fill="turquoise")+la
 ```
 
 ![](NY-Airbnb_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![unnamed-chunk-6-1](https://github.com/NelsSh/myprojects/assets/133047553/8cffbf64-ce22-407e-a592-82a3e3c2a26e)
 
 The property type most available across all boroughs are apartments,
 followed by houses,then lofts. It is interesting how apartments are the
@@ -109,6 +111,7 @@ ggplot(dt, aes(x= Beds))+geom_bar(stat="count", fill="turquoise")+labs(title="Nu
 ```
 
 ![](NY-Airbnb_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![unnamed-chunk-7-1](https://github.com/NelsSh/myprojects/assets/133047553/759b74de-b595-4767-b2f9-b2f27dd4921a)
 
 One bed spaces are most common in each borough as well, perhaps
 indicating the societal changes favoring temporal habits; or simply
@@ -166,7 +169,8 @@ dt %>%
   labs(x = "Borough", y = "Median Price", title = "Median Price Based on Borough")
 ```
 
-![](NY-Airbnb_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](NY-Airbnb_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->![unnamed-chunk-9-1](https://github.com/NelsSh/myprojects/assets/133047553/9d7ef59e-9e23-4715-9d6e-2cf2a0b15d48)
+
 
 Median prices are higher in Manhattan, followed by Brooklyn, Queens,
 Staten Island, and Bronx. Since median is less affected by extreme
